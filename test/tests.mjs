@@ -1,33 +1,33 @@
 /* eslint-disable import/max-dependencies */
 import test from 'ava';
-import n2words from '../lib/n2words.mjs';
-import AR from './i18n/AR.mjs';
-import CZ from './i18n/CZ.mjs';
-import DE from './i18n/DE.mjs';
-import DK from './i18n/DK.mjs';
-import EN from './i18n/EN.mjs';
-import ES from './i18n/ES.mjs';
-import FR from './i18n/FR.mjs';
-import FA from './i18n/FA.mjs';
-import HE from './i18n/HE.mjs';
-import HU from './i18n/HU.mjs';
-import IT from './i18n/IT.mjs';
-import KO from './i18n/KO.mjs';
-import LT from './i18n/LT.mjs';
-import LV from './i18n/LV.mjs';
-import NL from './i18n/NL.mjs';
-import NO from './i18n/NO.mjs';
-import PL from './i18n/PL.mjs';
-import PT from './i18n/PT.mjs';
-import RU from './i18n/RU.mjs';
-import SR from './i18n/SR.mjs';
-import TR from './i18n/TR.mjs';
-import UK from './i18n/UK.mjs';
-import ZH from './i18n/ZH.mjs';
+import n2words from '../lib/n2words.js';
+import AR from './i18n/AR.js';
+/*import CZ from './i18n/CZ.js';
+import DE from './i18n/DE.js';
+import DK from './i18n/DK.js';
+import EN from './i18n/EN.js';
+import ES from './i18n/ES.js';
+import FA from './i18n/FA.js';
+import FR from './i18n/FR.js';
+import HE from './i18n/HE.js';
+import HU from './i18n/HU.js';
+import IT from './i18n/IT.js';
+import KO from './i18n/KO.js';
+import LT from './i18n/LT.js';
+import LV from './i18n/LV.js';
+import NL from './i18n/NL.js';
+import NO from './i18n/NO.js';
+import PL from './i18n/PL.js';
+import PT from './i18n/PT.js';
+import RU from './i18n/RU.js';
+import SR from './i18n/SR.js';
+import TR from './i18n/TR.js';
+import UK from './i18n/UK.js';
+import ZH from './i18n/ZH.js';*/
 
 const i18n = {
   ar: AR,
-  cz: CZ,
+  /*cz: CZ,
   de: DE,
   dk: DK,
   en: EN,
@@ -48,7 +48,7 @@ const i18n = {
   sr: SR,
   tr: TR,
   uk: UK,
-  zh: ZH,
+  zh: ZH,*/
 };
 
 Object.keys(i18n).forEach(language => {

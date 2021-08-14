@@ -22,9 +22,6 @@
     "plugin:import/warnings",
     "plugin:jsdoc/recommended"
   ],
-  "overrides": [{
-    "files": ["*.js", "*.mjs"]
-  }],
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"

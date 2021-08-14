@@ -1,6 +1,6 @@
 module.exports = {
   mode: 'production',
-  entry: './lib/n2words.mjs',
+  entry: './lib/n2words.js',
   output: {
     library: 'n2words',
     libraryTarget: 'umd',
