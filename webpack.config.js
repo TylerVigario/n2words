@@ -29,7 +29,7 @@ export default {
               '@babel/preset-env',
               {
                 useBuiltIns: 'usage',
-                corejs: '3.37.1',
+                corejs: '3.38.1',
                 targets: 'defaults'
               },
             ],
